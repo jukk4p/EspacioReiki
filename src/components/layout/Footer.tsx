@@ -36,14 +36,14 @@ export function Footer() {
 
         <div className="flex flex-col items-center md:items-start">
           <h3 className="font-heading text-xl font-medium mb-4 text-primary text-center">Contacto</h3>
-          <ul className="space-y-3">
-            <li className="flex items-center justify-center md:justify-start gap-3 text-sm text-background/80">
-              <Mail className="w-4 h-4 text-primary shrink-0" />
+          <ul className="space-y-6 md:space-y-3">
+            <li className="flex flex-col md:flex-row items-center md:items-center gap-2 md:gap-3 text-sm text-background/80">
+              <Mail className="w-5 h-5 md:w-4 md:h-4 text-primary shrink-0" />
               <span>hola@espacioreiki.es</span>
             </li>
-            <li className="flex items-start justify-center md:justify-start gap-3 text-sm text-background/80">
-              <MapPin className="w-4 h-4 text-primary shrink-0 mt-0.5" />
-              <span>Avenida de España, 41,<br/>41701 Dos Hermanas, Sevilla</span>
+            <li className="flex flex-col md:flex-row items-center md:items-start gap-2 md:gap-3 text-sm text-background/80">
+              <MapPin className="w-5 h-5 md:w-4 md:h-4 text-primary shrink-0 mt-0.5" />
+              <span className="text-center md:text-left">Avenida de España, 41,<br/>41701 Dos Hermanas, Sevilla</span>
             </li>
           </ul>
         </div>
